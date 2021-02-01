@@ -12,12 +12,12 @@ text.setAttribute("class", "guessField");
 text.placeholder = "Your Guess";
 form.appendChild(text);
 
-let input = document.createElement("input");
-input.setAttribute("type", "submit");
-input.setAttribute("value", "Submit guess");
-input.setAttribute("id", "submitGuess");
-input.setAttribute("class", "guessSubmit");
-form.appendChild(input);
+let submit = document.createElement("input");
+submit.setAttribute("type", "submit");
+submit.setAttribute("value", "Submit guess");
+submit.setAttribute("id", "submitGuess");
+submit.setAttribute("class", "guessSubmit");
+form.appendChild(submit);
 
 let button = document.createElement("button");
 button.innerHTML = "New Number";
