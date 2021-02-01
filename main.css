@@ -4,7 +4,16 @@
     background-color: grey;
     margin-left: 20vw;
 }
-#guessField, #submitGuess, #newNumber{
+#guessField{
+    height: 5vh;
+    margin-top: 20vh;
+    margin-left: 40vh;
+}
+#submitGuess{
+    height: 5vh;
+    margin-top: 20vh;
+}
+#newNumber{
     height: 5vh;
     margin-top: 20vh;
 }
