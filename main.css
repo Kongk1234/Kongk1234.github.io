@@ -1,0 +1,10 @@
+.form{
+    height: 50vh;
+    width: 60vw;
+    background-color: grey;
+    margin-left: 20vw;
+}
+#guessField, #submitGuess, #newNumber{
+    height: 5vh;
+    margin-top: 20vh;
+}
